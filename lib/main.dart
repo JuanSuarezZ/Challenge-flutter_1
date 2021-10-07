@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: 'Challenge 1',
+      initialRoute: 'Challenge_1',
       routes: {
-        'Challenge 1': (BuildContext context) => Challenge1(),
+        'Challenge_1': (BuildContext context) => Challenge1(),
       },
       theme: ThemeData(
         //brightness: Brightness.dark,
