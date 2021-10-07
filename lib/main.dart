@@ -13,9 +13,8 @@ class MyApp extends StatelessWidget {
       routes: {
          'Challenge1' : (BuildContext context) => Challenge1(),
       },
-
+      
       theme: ThemeData(
-
         //brightness: Brightness.dark,
         primaryColor: Colors.blue[800],
         accentColor: Colors.black,
@@ -29,13 +28,7 @@ class MyApp extends StatelessWidget {
           headline6: TextStyle(fontSize: 15, color: Colors.black),
 
         ),
-
-       
-
-        
       ),
-    );
-
-    
+    );    
   }
 }
